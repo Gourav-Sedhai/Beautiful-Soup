@@ -17,3 +17,5 @@ all[0].find_all("h2")[0].text //Here you can pass anything you wanna extract
  
  for item in all:
     print(item.find_all("p")[0].text) //p can be replaced by h2
+
+--------------------------------------------
